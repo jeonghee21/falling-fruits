@@ -1,5 +1,5 @@
 const fruitContainer = document.getElementById('fruit-container');
-const fruits = ['apple.png', 'banana.png', 'orange.png'];  // 이미지를 여기에 추가
+const fruits = ['apple.png', 'banana.png', 'orange.png', 'tomato.png'];  // 이미지를 여기에 추가
 
 function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min)) + min;
