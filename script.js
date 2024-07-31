@@ -7,7 +7,7 @@ function getRandomInt(min, max) {
 
 function createFruit() {
     const fruit = document.createElement('img');
-    frunit.src = 'images/' + fruits[getRandomInt(0, fruits.length)];
+    fruit.src = 'images/' + fruits[getRandomInt(0, fruits.length)];
     fruit.className = 'fruit';
     fruit.style.left = getRandomInt(0, window.innerWidth - 50) + 'px';
     fruit.style.top = '-50px';
